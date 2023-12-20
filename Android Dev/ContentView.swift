@@ -11,9 +11,20 @@ import CoreData
 struct ContentView: View {
 
     var body: some View {
-            Text("Text")
+        Button("Adb??") {
+            getDevices()
         }
+        Button("Adb Device") {
+            //Todo
+        }
+        Text("Device")
+        Button("Logcat") {
+            //logcat()
+        }
+        Text("Install")
+        Text("Screenshot")
     }
+}
 
 
 

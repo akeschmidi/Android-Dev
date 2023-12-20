@@ -9,12 +9,15 @@ import SwiftUI
 
 @main
 struct Android_DevApp: App {
-    let persistenceController = PersistenceController.shared
 
     var body: some Scene {
+        
+        MenuBarExtra("Android Dev", systemImage: "figure.wave") {
+            ContentView()
+        }
+        
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

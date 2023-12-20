@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C979FAA72B33628E00C3D966 /* platform-tools in Resources */ = {isa = PBXBuildFile; fileRef = C979FAA62B33628E00C3D966 /* platform-tools */; };
+		C979FAA92B3363A100C3D966 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = C979FAA82B3363A100C3D966 /* Device.swift */; };
+		C979FAAF2B33648300C3D966 /* adb in Resources */ = {isa = PBXBuildFile; fileRef = C979FAAE2B33648300C3D966 /* adb */; };
 		C9BA10542B31FB7E00D1A6F3 /* Android_DevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA10532B31FB7E00D1A6F3 /* Android_DevApp.swift */; };
 		C9BA10562B31FB7E00D1A6F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA10552B31FB7E00D1A6F3 /* ContentView.swift */; };
 		C9BA10582B31FB7F00D1A6F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BA10572B31FB7F00D1A6F3 /* Assets.xcassets */; };
 		C9BA105B2B31FB7F00D1A6F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BA105A2B31FB7F00D1A6F3 /* Preview Assets.xcassets */; };
 		C9BA105D2B31FB7F00D1A6F3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA105C2B31FB7F00D1A6F3 /* Persistence.swift */; };
 		C9BA10602B31FB7F00D1A6F3 /* Android_Dev.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9BA105E2B31FB7F00D1A6F3 /* Android_Dev.xcdatamodeld */; };
+		C9BA10682B32004E00D1A6F3 /* shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA10672B32004E00D1A6F3 /* shell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C979FAA62B33628E00C3D966 /* platform-tools */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "platform-tools"; path = "../../../../Downloads/platform-tools"; sourceTree = "<group>"; };
+		C979FAA82B3363A100C3D966 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		C979FAAE2B33648300C3D966 /* adb */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = adb; path = "../../../../Downloads/platform-tools/adb"; sourceTree = "<group>"; };
 		C9BA10502B31FB7E00D1A6F3 /* Android Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Android Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BA10532B31FB7E00D1A6F3 /* Android_DevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Android_DevApp.swift; sourceTree = "<group>"; };
 		C9BA10552B31FB7E00D1A6F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		C9BA105C2B31FB7F00D1A6F3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C9BA105F2B31FB7F00D1A6F3 /* Android_Dev.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Android_Dev.xcdatamodel; sourceTree = "<group>"; };
 		C9BA10612B31FB7F00D1A6F3 /* Android_Dev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Android_Dev.entitlements; sourceTree = "<group>"; };
+		C9BA10672B32004E00D1A6F3 /* shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				C9BA10532B31FB7E00D1A6F3 /* Android_DevApp.swift */,
 				C9BA10552B31FB7E00D1A6F3 /* ContentView.swift */,
+				C9BA10672B32004E00D1A6F3 /* shell.swift */,
+				C979FAA82B3363A100C3D966 /* Device.swift */,
+				C979FAAE2B33648300C3D966 /* adb */,
 				C9BA10572B31FB7F00D1A6F3 /* Assets.xcassets */,
+				C979FAA62B33628E00C3D966 /* platform-tools */,
 				C9BA105C2B31FB7F00D1A6F3 /* Persistence.swift */,
 				C9BA10612B31FB7F00D1A6F3 /* Android_Dev.entitlements */,
 				C9BA105E2B31FB7F00D1A6F3 /* Android_Dev.xcdatamodeld */,
@@ -135,6 +147,8 @@
 			files = (
 				C9BA105B2B31FB7F00D1A6F3 /* Preview Assets.xcassets in Resources */,
 				C9BA10582B31FB7F00D1A6F3 /* Assets.xcassets in Resources */,
+				C979FAAF2B33648300C3D966 /* adb in Resources */,
+				C979FAA72B33628E00C3D966 /* platform-tools in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9BA105D2B31FB7F00D1A6F3 /* Persistence.swift in Sources */,
+				C9BA10682B32004E00D1A6F3 /* shell.swift in Sources */,
 				C9BA10562B31FB7E00D1A6F3 /* ContentView.swift in Sources */,
+				C979FAA92B3363A100C3D966 /* Device.swift in Sources */,
 				C9BA10542B31FB7E00D1A6F3 /* Android_DevApp.swift in Sources */,
 				C9BA10602B31FB7F00D1A6F3 /* Android_Dev.xcdatamodeld in Sources */,
 			);
